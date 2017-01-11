@@ -1,0 +1,94 @@
+src/lzo1_99.lo: src/lzo1_99.c src/config1.h src/lzo_conf.h \
+ include/lzo/lzoconf.h config.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/5.4.0/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/5.4.0/include-fixed/syslimits.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/limits.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/crtdefs.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/_mingw.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/_mingw_mac.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/_mingw_secapi.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/vadefs.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/sdks/_mingw_directx.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/sdks/_mingw_ddk.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/5.4.0/include/stddef.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/stddef.h \
+ include/lzo/lzodefs.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/string.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/sec_api/string_s.h \
+ src/lzo_supp.h /usr/x86_64-w64-mingw32/sys-root/mingw/include/assert.h \
+ src/lzo_func.h src/lzo_ptr.h include/lzo/lzo1.h src/config1a.h \
+ include/lzo/lzo1a.h src/lzo1b_de.h src/lzo_dict.h src/stats1b.h \
+ src/lzo1b_cc.h src/lzo1b_c.ch src/lzo1b_sm.ch src/lzo1b_tm.ch \
+ src/lzo1b_cr.ch src/lzo1_cm.ch src/lzo1a_cm.ch
+
+src/config1.h:
+
+src/lzo_conf.h:
+
+include/lzo/lzoconf.h:
+
+config.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/5.4.0/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/5.4.0/include-fixed/syslimits.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/limits.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/crtdefs.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/_mingw.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/_mingw_mac.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/_mingw_secapi.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/vadefs.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/sdks/_mingw_directx.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/sdks/_mingw_ddk.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/5.4.0/include/stddef.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/stddef.h:
+
+include/lzo/lzodefs.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/string.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/sec_api/string_s.h:
+
+src/lzo_supp.h:
+
+/usr/x86_64-w64-mingw32/sys-root/mingw/include/assert.h:
+
+src/lzo_func.h:
+
+src/lzo_ptr.h:
+
+include/lzo/lzo1.h:
+
+src/config1a.h:
+
+include/lzo/lzo1a.h:
+
+src/lzo1b_de.h:
+
+src/lzo_dict.h:
+
+src/stats1b.h:
+
+src/lzo1b_cc.h:
+
+src/lzo1b_c.ch:
+
+src/lzo1b_sm.ch:
+
+src/lzo1b_tm.ch:
+
+src/lzo1b_cr.ch:
+
+src/lzo1_cm.ch:
+
+src/lzo1a_cm.ch:

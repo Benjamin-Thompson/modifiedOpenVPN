@@ -1,0 +1,12 @@
+prefix=..//cygdrive/c/dev/7tunnels/openvpn-build-master/generic/image-win/openvpn
+exec_prefix=${prefix}
+libdir=${exec_prefix}//lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 1.1.1-dev
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Libs.private: -lws2_32 -lgdi32 -lcrypt32 
+Cflags: -I${includedir}

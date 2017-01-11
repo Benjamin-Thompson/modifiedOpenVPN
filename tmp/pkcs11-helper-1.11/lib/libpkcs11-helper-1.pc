@@ -1,0 +1,11 @@
+prefix=/
+exec_prefix=${prefix}
+libdir=//lib
+includedir=${prefix}/include
+features= debug threading token data certificate slotevent openssl engine_crypto_openssl engine_crypto_polarssl engine_crypto_cryptoapi engine_crypto
+
+Name: pkcs11-helper
+Description: PKCS#11 helper library
+Version: 1.11
+Cflags: -I${includedir}
+Libs:  -L/cygdrive/c/dev/7tunnels/openvpn-build-master/generic/image-win/openvpn/lib -lssl -lcrypto -L${libdir} -lpkcs11-helper
